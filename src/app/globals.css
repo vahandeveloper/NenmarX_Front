@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nx-cyan: #00d2ff;
+  --nx-purple: #9d50bb;
+  --nx-bg: #060a12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  color: #e8eef8;
+  background: var(--nx-bg);
+}
