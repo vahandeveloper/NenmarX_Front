@@ -8,8 +8,6 @@ const links = [
   { href: "#focus", label: "Our focus" },
   { href: "#capabilities", label: "Services" },
   { href: "#process", label: "How we work" },
-  { href: "#stories", label: "Work" },
-  { href: "#faq", label: "FAQ" },
 ];
 
 export function Header() {

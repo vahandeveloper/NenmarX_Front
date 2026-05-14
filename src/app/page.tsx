@@ -1,15 +1,11 @@
 import { GradientDefs } from "@/components/GradientDefs";
-import { Faq } from "@/components/home/Faq";
 import { FocusAreas } from "@/components/home/FocusAreas";
 import { Header } from "@/components/home/Header";
 import { Hero } from "@/components/home/Hero";
 import { LogoStrip } from "@/components/home/LogoStrip";
 import { Process } from "@/components/home/Process";
 import { SiteFooter } from "@/components/home/SiteFooter";
-import { Stats } from "@/components/home/Stats";
-import { Stories } from "@/components/home/Stories";
 import { TrustAndPillars } from "@/components/home/TrustAndPillars";
-import { WhyUs } from "@/components/home/WhyUs";
 
 export default function Home() {
   return (
@@ -26,11 +22,7 @@ export default function Home() {
           <TrustAndPillars />
           <LogoStrip />
           <Process />
-          <WhyUs />
-          <Stats />
           <FocusAreas />
-          <Stories />
-          <Faq />
           <SiteFooter />
         </main>
       </div>

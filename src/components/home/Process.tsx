@@ -56,22 +56,6 @@ export function Process() {
             </div>
           ))}
         </div>
-
-        <div className="relative mt-16 overflow-hidden rounded-3xl border border-cyan-500/20 bg-gradient-to-br from-[#00D2FF]/10 via-[#0a1020] to-[#9D50BB]/15 px-8 py-12 text-center md:px-16">
-          <div
-            className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(0,210,255,0.15),transparent_50%)]"
-            aria-hidden
-          />
-          <p className="relative text-lg font-medium text-white md:text-xl">
-            Focus on growth — we own the technology execution.
-          </p>
-          <a
-            href="#contact"
-            className="relative mt-6 inline-flex rounded-full border border-white/30 bg-white/10 px-8 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/15"
-          >
-            Talk to us
-          </a>
-        </div>
       </div>
     </section>
   );

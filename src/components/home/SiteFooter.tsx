@@ -5,8 +5,6 @@ const cols = [
     title: "Company",
     links: [
       { href: "#top", label: "About" },
-      { href: "#stories", label: "Work" },
-      { href: "#faq", label: "FAQ" },
     ],
   },
   {
@@ -14,7 +12,6 @@ const cols = [
     links: [
       { href: "#capabilities", label: "Capabilities" },
       { href: "#process", label: "Process" },
-      { href: "#why", label: "Why NenmarX" },
     ],
   },
   {
