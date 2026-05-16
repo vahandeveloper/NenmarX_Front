@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[88vh] flex-col justify-center px-5 pb-16 pt-28 md:px-8 md:pb-24"
+      className="relative px-5 pb-10 pt-28 md:px-8 md:pb-12"
     >
       <div
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_60%_at_50%_-20%,rgba(0,210,255,0.18),transparent_55%),radial-gradient(ellipse_50%_45%_at_90%_30%,rgba(157,80,187,0.12),transparent_50%)]"

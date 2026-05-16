@@ -44,7 +44,7 @@ const pillars = [
 
 export function TrustAndPillars() {
   return (
-    <section id="capabilities" className="scroll-mt-24 px-5 py-16 md:px-8 md:py-24">
+    <section id="capabilities" className="scroll-mt-24 px-5 pb-16 pt-6 md:px-8 md:pb-24 md:pt-8">
       <div className="mx-auto max-w-6xl">
         <div className="mb-10 flex flex-wrap items-center justify-center gap-3 md:mb-14 md:gap-4">
           {badges.map((b) => (
