@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export function Hero() {
   return (
     <section
@@ -20,24 +18,6 @@ export function Hero() {
             products that scale
           </span>
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-slate-400 md:text-lg">
-          We team up with teams that want clarity, speed, and production-grade
-          engineering — from discovery to launch and beyond.
-        </p>
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Link
-            href="#contact"
-            className="inline-flex min-w-[200px] items-center justify-center rounded-full bg-gradient-to-r from-[#00D2FF] to-[#9D50BB] px-8 py-3.5 text-sm font-semibold text-[#050810] shadow-[0_0_40px_-8px_rgba(0,210,255,0.45)] transition hover:brightness-110"
-          >
-            Start your digital journey
-          </Link>
-          <Link
-            href="#capabilities"
-            className="inline-flex min-w-[200px] items-center justify-center rounded-full border border-white/20 bg-white/5 px-8 py-3.5 text-sm font-medium text-white backdrop-blur-sm transition hover:border-white/35 hover:bg-white/10"
-          >
-            Explore services
-          </Link>
-        </div>
       </div>
     </section>
   );

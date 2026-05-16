@@ -87,9 +87,6 @@ export function TrustAndPillars() {
               <p className="mt-2 text-sm leading-relaxed text-slate-400">
                 {body}
               </p>
-              <span className="mt-4 text-xs font-semibold uppercase tracking-wider text-cyan-400/90 opacity-0 transition group-hover:opacity-100">
-                Learn more →
-              </span>
             </article>
           ))}
         </div>

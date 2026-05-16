@@ -1,4 +1,4 @@
-import { ArrowRight, Building2, Cpu, Globe2, Network } from "lucide-react";
+import { Building2, Cpu, Globe2, Network } from "lucide-react";
 
 const areas = [
   {
@@ -47,10 +47,7 @@ export function FocusAreas() {
                 <Icon className="h-6 w-6 text-cyan-200" strokeWidth={1.5} />
               </div>
               <h3 className="text-xl font-semibold text-white">{title}</h3>
-              <p className="mt-3 flex-grow text-slate-400">{body}</p>
-              <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 transition group-hover:gap-3">
-                Explore <ArrowRight className="h-4 w-4" />
-              </span>
+              <p className="mt-3 text-slate-400">{body}</p>
             </article>
           ))}
         </div>

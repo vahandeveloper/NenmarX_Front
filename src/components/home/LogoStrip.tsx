@@ -1,10 +1,9 @@
 const placeholders = [
+  "Tourism",
   "Enterprise",
   "Fintech",
-  "Health",
   "Retail",
   "Logistics",
-  "SaaS",
 ];
 
 export function LogoStrip() {
