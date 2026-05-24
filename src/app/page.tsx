@@ -1,4 +1,5 @@
 import { GradientDefs } from "@/components/GradientDefs";
+import { Benefits } from "@/components/home/Benefits";
 import { FocusAreas } from "@/components/home/FocusAreas";
 import { Header } from "@/components/home/Header";
 import { Hero } from "@/components/home/Hero";
@@ -21,8 +22,9 @@ export default function Home() {
           <Hero />
           <TrustAndPillars />
           <LogoStrip />
-          <Process />
           <FocusAreas />
+          <Benefits />
+          <Process />
           <SiteFooter />
         </main>
       </div>
