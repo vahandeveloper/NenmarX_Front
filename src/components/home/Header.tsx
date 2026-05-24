@@ -21,9 +21,9 @@ export function Header() {
           className="flex items-baseline gap-0.5 text-lg font-semibold tracking-tight text-white"
           onClick={() => setOpen(false)}
         >
-          <span>Nenmar</span>
+          <span>Nen</span>
           <span className="bg-gradient-to-r from-[#00D2FF] to-[#9D50BB] bg-clip-text text-transparent">
-            X
+            Zet
           </span>
         </Link>
 

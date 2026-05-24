@@ -8,37 +8,37 @@ import {
 } from "lucide-react";
 
 const badges = [
-  "Security-minded delivery",
-  "Cloud-ready architecture",
-  "Short agile cycles",
-  "Transparent communication",
+  "Tour packages",
+  "Online booking",
+  "Agency cabinet",
+  "Payments & documents",
 ];
 
 const pillars = [
   {
     icon: Brain,
-    title: "Product thinking",
-    body: "We align scope with outcomes before writing code — fewer surprises late in the cycle.",
+    title: "Tour product management",
+    body: "Create and manage tour packages, routes, services, quotas, and special offers in one system.",
   },
   {
     icon: Cpu,
-    title: "Engineering depth",
-    body: "Solid foundations for APIs, data, and integrations that survive real traffic.",
+    title: "Order & booking workflows",
+    body: "Handle simple and complex requests, customer applications, agency bookings, and operational status.",
   },
   {
     icon: Cloud,
-    title: "Cloud & DevOps",
-    body: "Repeatable environments, observability, and predictable releases.",
+    title: "Pricing and price lists",
+    body: "Calculate prices with markups, commissions, discounts, early booking rules, and export-ready price lists.",
   },
   {
     icon: Smartphone,
-    title: "Web & mobile",
-    body: "Consistent UX across channels with performance as a first-class concern.",
+    title: "B2B and B2C sales",
+    body: "Online booking for agencies, direct customer sales, personal accounts, and mobile-friendly flows.",
   },
   {
     icon: Layers,
-    title: "Modernization",
-    body: "Strangle legacy safely — incremental refactors with measurable risk reduction.",
+    title: "Integrations & reporting",
+    body: "Connect payments, accounting, partners, GDS, CRM, imports, exports, analytics, and notifications.",
   },
 ];
 
@@ -63,14 +63,14 @@ export function TrustAndPillars() {
 
         <div className="text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-white md:text-4xl">
-            End-to-end{" "}
+            Automation for{" "}
             <span className="bg-gradient-to-r from-[#00D2FF] to-[#9D50BB] bg-clip-text text-transparent">
-              software delivery
+              tour operators
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-slate-400">
-            A consulting-led approach with engineering discipline — from startups
-            scaling fast to teams modernizing core systems.
+            One platform concept for product creation, booking management,
+            online sales, partner workflows, payments, documents, and analytics.
           </p>
         </div>
 

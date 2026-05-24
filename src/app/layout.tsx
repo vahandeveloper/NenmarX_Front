@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NenmarX — Strategic Software Development Partner",
+  title: "NenZet — Tour Operator Automation Software",
   description:
-    "Product-minded engineering for web, mobile, and cloud — from discovery to launch and beyond.",
+    "B2B and B2C software for tour operators: bookings, prices, payments, documents, integrations, and analytics.",
 };
 
 export default function RootLayout({

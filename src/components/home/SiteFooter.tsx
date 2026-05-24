@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const CONTACT_EMAIL = "info@nenmarx.com";
+const CONTACT_EMAIL = "info@nenzet.com";
 const WHATSAPP_E164 = "37477443388";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_E164}`;
 
@@ -38,11 +38,11 @@ export function SiteFooter() {
         <div className="grid gap-12 lg:grid-cols-[1.2fr_2fr]">
           <div>
             <Link href="#top" className="text-xl font-semibold text-white">
-              Nenmar<span className="text-cyan-400">X</span>
+              Nen<span className="text-cyan-400">Zet</span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
-              Strategic software development — web, mobile, and cloud — with the
-              rigor your users and stakeholders expect.
+              B2B and B2C software for tour operators: products, bookings,
+              prices, payments, documents, integrations, and analytics.
             </p>
             <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
               <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
@@ -104,7 +104,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-14 border-t border-white/10 pt-8 text-center text-xs text-slate-500 md:text-left">
-          <p>© {new Date().getFullYear()} NenmarX. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NenZet. All rights reserved.</p>
         </div>
       </div>
     </footer>

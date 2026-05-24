@@ -3,23 +3,23 @@ import { Building2, Cpu, Globe2, Network } from "lucide-react";
 const areas = [
   {
     icon: Cpu,
-    title: "B2B platforms",
-    body: "Workflows, integrations, and admin consoles built for operational scale.",
+    title: "Online booking system",
+    body: "Search tours, book packages, manage applications, view stop-sales, offers, and availability.",
   },
   {
     icon: Globe2,
-    title: "Customer-facing products",
-    body: "Web and mobile experiences optimized for conversion and retention.",
+    title: "Agency personal account",
+    body: "A secure cabinet for agencies to manage orders, print documents, track payments, and communicate.",
   },
   {
     icon: Building2,
-    title: "Public sector & enterprise",
-    body: "Compliance-aware delivery with maintainability as a priority.",
+    title: "Documents and payments",
+    body: "Vouchers, contracts, invoices, insurance, payment tracking, online payments, and accounting exports.",
   },
   {
     icon: Network,
-    title: "Connectivity & IoT-ready apps",
-    body: "Reliable clients for devices, partners, and third-party ecosystems.",
+    title: "Data exchange and integrations",
+    body: "Import/export for hotels, services, prices, XML/XLS data, partner operators, GDS, CRM, and banks.",
   },
 ];
 
@@ -29,11 +29,11 @@ export function FocusAreas() {
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-semibold text-white md:text-4xl">
-            Focus areas
+            Core modules
           </h2>
           <p className="mt-4 text-slate-400">
-            Where we bring the most leverage — across industries and product
-            stages.
+            The same kind of operational data structure used by modern tour
+            operator automation systems.
           </p>
         </div>
 

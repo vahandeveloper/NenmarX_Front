@@ -10,12 +10,12 @@ export function Hero() {
       />
       <div className="relative mx-auto w-full max-w-4xl text-center">
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/90">
-          Software · Web &amp; mobile · B2B &amp; B2C
+          Tour operator automation · B2B &amp; B2C
         </p>
         <h1 className="text-balance text-4xl font-semibold leading-[1.1] tracking-tight text-white md:text-6xl lg:text-7xl">
-          Your partner for{" "}
+          Software for tourism{" "}
           <span className="bg-gradient-to-r from-[#00D2FF] via-cyan-200 to-[#9D50BB] bg-clip-text text-transparent">
-            products that scale
+            sales and operations
           </span>
         </h1>
       </div>

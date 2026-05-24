@@ -1,4 +1,4 @@
-export function NXLogo({ className }: { className?: string }) {
+export function NZLogo({ className }: { className?: string }) {
   return (
     <div
       className={`relative flex select-none items-center justify-center ${className ?? ""}`}
@@ -41,7 +41,7 @@ export function NXLogo({ className }: { className?: string }) {
           letterSpacing="-0.06em"
           opacity={0.98}
         >
-          X
+          Z
         </text>
       </svg>
     </div>

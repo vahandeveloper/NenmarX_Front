@@ -3,23 +3,23 @@ import { Gauge, Rocket, Search, Wrench } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Discovery & alignment",
-    body: "Goals, constraints, and success metrics — before architecture decisions.",
+    title: "Catalog setup",
+    body: "Destinations, hotels, services, routes, quotas, packages, and special offers.",
   },
   {
     icon: Gauge,
-    title: "Design & development",
-    body: "Short cycles with visible progress, reviews, and tight feedback loops.",
+    title: "Pricing logic",
+    body: "Price lists, markups, commissions, discounts, early booking, and partner terms.",
   },
   {
     icon: Rocket,
-    title: "Test & launch",
-    body: "Performance, security, and usability checks before production traffic.",
+    title: "Sales workflow",
+    body: "B2B agency booking, B2C direct booking, applications, payments, and documents.",
   },
   {
     icon: Wrench,
-    title: "Support & iteration",
-    body: "Monitoring, improvements, and roadmap support after go-live.",
+    title: "Operations & analytics",
+    body: "Reports, statistics, notifications, accounting exports, partner exchange, and support.",
   },
 ];
 
@@ -29,11 +29,11 @@ export function Process() {
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-semibold text-white md:text-4xl">
-            Our delivery process
+            How the data is organized
           </h2>
           <p className="mt-4 text-slate-400">
-            Structured phases with clear ownership — decisions become working
-            software with measurable checkpoints.
+            From tourism product data to bookings, payments, documents,
+            integrations, and management reports.
           </p>
         </div>
 
