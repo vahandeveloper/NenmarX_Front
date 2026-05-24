@@ -41,7 +41,7 @@ export function Header() {
             href="#contact"
             className="rounded-full bg-gradient-to-r from-[#00D2FF] to-[#7a3fa0] px-4 py-2 text-sm font-semibold text-[#050810] shadow-lg shadow-cyan-500/20 transition hover:opacity-95"
           >
-            Contact
+            Call / write
           </a>
         </nav>
 
@@ -74,7 +74,7 @@ export function Header() {
               className="mt-2 rounded-full bg-gradient-to-r from-[#00D2FF] to-[#7a3fa0] px-4 py-3 text-center text-sm font-semibold text-[#050810]"
               onClick={() => setOpen(false)}
             >
-              Contact
+              Call / write
             </a>
           </div>
         </div>
