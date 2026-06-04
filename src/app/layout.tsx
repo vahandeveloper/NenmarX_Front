@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "NenZet — Tour Operator Automation Software",
   description:
     "B2B and B2C software for tour operators: bookings, prices, payments, documents, integrations, and analytics.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
